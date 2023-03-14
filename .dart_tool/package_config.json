@@ -68,10 +68,22 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_screenutil",
+      "rootUri": "file:///Users/rainer/.pub-cache/hosted/pub.flutter-io.cn/flutter_screenutil-5.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/rainer/Documents/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "get",
+      "rootUri": "file:///Users/rainer/.pub-cache/hosted/pub.flutter-io.cn/get-4.6.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "js",
@@ -176,7 +188,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-03-14T01:00:47.194151Z",
+  "generated": "2023-03-14T13:19:14.241052Z",
   "generator": "pub",
-  "generatorVersion": "2.19.0"
+  "generatorVersion": "2.19.4"
 }
