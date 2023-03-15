@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:realcaiapp/utils/Routes.dart';
 
+import '../utils/QHRouter.dart';
 import 'home_logic.dart';
 
 class HomePageWrapper extends StatelessWidget {
@@ -19,6 +21,14 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('首页'),
+        actions: [
+          IconButton(
+              icon: Icon(Icons.message),
+              onPressed: () => {
+                    //message
+                    QHRouter.to(Routes.message)
+                  }),
+        ],
       ),
       body: Container(),
     );

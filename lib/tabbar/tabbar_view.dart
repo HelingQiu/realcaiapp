@@ -35,7 +35,9 @@ class TabbarPage extends StatelessWidget {
           currentIndex: state.currentIndex.value,
           items: const [
             BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(
+                Icons.home,
+              ),
               label: home,
             ),
             BottomNavigationBarItem(
